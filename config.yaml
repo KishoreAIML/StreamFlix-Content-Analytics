@@ -1,0 +1,9 @@
+Project: 
+  name: StreamFlix Content Analytics Project
+
+Paths:
+  Database: src/database
+  Reports : reports
+
+Files:
+  Cunnector: database_connector.py
