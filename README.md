@@ -62,3 +62,31 @@ The **StreamFlix Content Analytics** project uses a relational dataset consistin
 | `ratings` | 130,000 | Ratings provided by subscribers for watched titles |
 | `reviews` | 110,000 | Written subscriber reviews and sentiment information |
 | `watchlist` | 65,000 | Titles saved by subscribers and their viewing conversion behavior |
+
+# Technology Stack
+
+### Data Analysis
+
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Jupyter Lab
+
+### Database
+
+- PostgreSQL
+- SQL
+
+### Business Intelligence
+
+- Microsoft Power BI
+- Power Query
+- DAX
+
+### Development & Version Control
+
+- VS Code
+- Git
+- GitHub
