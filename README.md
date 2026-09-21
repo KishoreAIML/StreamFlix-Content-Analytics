@@ -35,13 +35,12 @@ Page 3 — Subscriber Insights: plan/segment breakdown, top 10 countries map, ne
 Page 4 — Experience: device breakdown, rating distribution, review sentiment analysis. 
 Page 5 — Catalogue & Investment: Originals vs. Licensed split, watch hours per $1K spend by genre, upcoming licence expiries. 
      Each page must have: a title, at least 2 charts, at least 1 filter/slicer (e.g. date range,    genre, or plan), and a text box with 1–2 key insights. 
-## 3.Submission Format
-ZIP folder Format
-# Type of Analytics
-- Descriptive Analytics
-- Diagnostic Analytics
-# Project Delivarebles
-- Notebooks(.ipynb)
-- Reports(.PDF)
-- Power Bi Dashboard(.pbix)
+     
+## 📊 Power BI Dashboard
+
+### Dashboard Preview
+
+<p align="center">
+  <img src="reports/dashboard.png" alt="Power BI Dashboard" width="900">
+</p>
 
