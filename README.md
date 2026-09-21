@@ -111,7 +111,76 @@ Interactive Dashboard
 Business Insights
 ```
 ---
-# 🧹 1. Data Cleaning & Quality Analysis
+
+## 1. PostgreSQL — Basic Cleaning & Analysis
+
+### Database & Data Inspection
+
+The initial inspection focused on understanding the structure and contents of each table.
+
+- Inspected sample records using `SELECT ... LIMIT`
+- Checked total records in each table
+- Identified distinct categorical values
+- Examined date ranges
+- Checked subscriber activity status
+- Reviewed ratings and review attributes
+- Inspected viewing-session attributes such as device and completion status
+- Validated relationships between subscribers, titles, ratings, reviews, and watch history
+
+### Basic Data Cleaning
+
+Basic cleaning and preparation included:
+
+- Validating column names and data structure
+- Renaming columns where required
+- Checking categorical values
+- Checking rating ranges
+- Identifying subscribers without ratings or reviews using `LEFT JOIN`
+- Validating relationships between fact and dimension tables
+- Checking completion and viewing-related fields
+- Preparing tables for analytical queries
+
+### Analytical Questions
+
+After inspection and cleaning, PostgreSQL was used to answer business-oriented questions.
+
+#### Content Performance
+
+- Which genres generate the highest total watch hours?
+- Which countries of origin generate the most watch hours?
+- Which languages have the highest viewing activity?
+- How do Movies and TV Shows compare in watch hours and completion?
+- Which genres have the highest completion rates?
+- How does engagement vary by content release year?
+
+#### Subscriber & Engagement Analysis
+
+- Which subscription plans have the highest average watch time per subscriber?
+- What percentage of subscribers are active vs. inactive?
+- What is the subscriber churn rate?
+- What is the Monthly Recurring Revenue (MRR)?
+- What is the Average Revenue Per User (ARPU)?
+
+#### Viewing Behavior
+
+- Which devices account for the highest share of viewing sessions?
+- Which subscriber segments show higher engagement?
+- Which genres have the highest number of completed sessions?
+
+#### Customer Experience
+
+- What is the distribution of ratings?
+- Which genres and languages receive more positive reviews?
+- Which subscribers have not submitted ratings or reviews?
+
+#### Watchlist & Content Investment
+
+- What percentage of saved titles are eventually watched?
+- Which genres generate the most watch hours relative to content investment?
+- How many watch hours are generated per **$1,000 of licence cost**?
+
+
+# 2. Data Cleaning & Quality Analysis
 
 The first stage focused on understanding, cleaning, and validating the raw datasets before performing analysis.
 
@@ -132,7 +201,7 @@ Examples include validating subscriber and title relationships, checking duplica
 
 ---
 
-# 📊 2. Exploratory Data Analysis
+# 3. Exploratory Data Analysis
 
 Python was used to explore patterns, trends, and relationships across the datasets.
 
@@ -153,7 +222,7 @@ These analyses helped identify important trends and patterns before developing t
 
 ---
 
-# 🧮 3. Business KPI Analysis
+# 4. Business KPI Analysis
 
 The project includes the following key business metrics:
 
@@ -174,7 +243,7 @@ The KPI definitions and calculations follow the project requirements.
 
 ---
 
-# 📈 4. Power BI Dashboard
+# 5. Power BI Dashboard
 
 The final analysis was presented through an interactive **Microsoft Power BI dashboard**.
 
