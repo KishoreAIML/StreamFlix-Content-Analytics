@@ -90,3 +90,22 @@ The **StreamFlix Content Analytics** project uses a relational dataset consistin
 - VS Code
 - Git
 - GitHub
+
+# 🔄 Project Workflow
+
+```text
+Raw Data
+   ↓
+PostgreSQL – Data Cleaning & SQL Analysis
+   ↓
+Python – Data Cleaning & Data Quality Checks
+   ↓
+Exploratory Data Analysis (EDA)
+   ↓
+KPI Calculation
+   ↓
+Power BI – Data Modeling
+   ↓
+Interactive Dashboard
+   ↓
+Business Insights
