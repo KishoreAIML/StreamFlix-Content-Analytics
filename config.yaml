@@ -4,6 +4,7 @@ Project:
 Paths:
   Database: src/database
   Reports : reports
+  Figures : reports/figures
 
 Files:
   Cunnector: database_connector.py

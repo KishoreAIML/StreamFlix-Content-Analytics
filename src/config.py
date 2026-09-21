@@ -12,3 +12,4 @@ with open(ROOT_DIR/"config.yaml", "r") as file:
 Database = config["Paths"]["Database"]
 Cunnector = config["Files"]["Cunnector"]
 Reports = config["Paths"]["Reports"]
+Figures = config["Paths"]["Figures"]
