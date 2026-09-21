@@ -109,7 +109,8 @@ Power BI – Data Modeling
 Interactive Dashboard
    ↓
 Business Insights
-
+```
+---
 # 🧹 1. Data Cleaning & Quality Analysis
 
 The first stage focused on understanding, cleaning, and validating the raw datasets before performing analysis.
