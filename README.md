@@ -49,3 +49,15 @@ Page 5 — Catalogue & Investment: Originals vs. Licensed split, watch hours per
   <img src="reports/dashboard.png" alt="Power BI Dashboard" width="900">
 </p>
 
+
+# Data
+
+The StreamFlix Content Analytics project uses a relational dataset consisting of six interconnected tables. The dataset represents subscribers, content, viewing activity, ratings, reviews, and watchlist behavior.
+
+Table	Records	Description
+subscribers	15,000	Subscriber profiles, subscription plans, locations, and churn information
+titles	9,000	Movie and TV show catalogue with content-related attributes
+watch_history	650,000	Individual subscriber viewing sessions and completion activity
+ratings	130,000	Ratings provided by subscribers for watched titles
+reviews	110,000	Written subscriber reviews and sentiment information
+watchlist	65,000	Titles saved by subscribers and their viewing conversion behavior
